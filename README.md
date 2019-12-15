@@ -1,6 +1,6 @@
 # React Step Form
 
-> Form with multiple steps and confirmation. Frontend only, no API. Uses Material UI
+> Form with multiple steps and confirmation. Frontend only, no API. Uses Material UI. Converted to React-Redux Hooks, using useSelector and useDispatch.
 
 ## Quick Start
 
@@ -19,8 +19,7 @@ npm run build
 
 ### Author
 
-Brad Traversy
-[Traversy Media](http://www.traversymedia.com)
+Brad Traversy, Lemuel Adane
 
 ### Version
 
