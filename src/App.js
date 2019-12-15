@@ -1,14 +1,17 @@
-import React, { Component } from 'react';
+import React from 'react';
+import { Provider } from 'react-redux';
 import { UserForm } from './components/UserForm';
+import { createStore } from 'redux';
+import { reducer } from './reducer';
 
-class App extends Component {
-  render() {
-    return (
+const App = () => {
+  return (
+    <Provider store={createStore(reducer)}>
       <div className="App">
         <UserForm />
       </div>
-    );
-  }
+    </Provider>
+  );
 }
 
 export default App;
